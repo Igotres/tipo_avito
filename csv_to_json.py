@@ -29,5 +29,6 @@ def convert_file(csv_file, model_name, json_file):
         jsf.write(json.dumps(result, ensure_ascii=False, indent=4))
 
 
-#convert_file(DATA_ADS, "ads.ad", JSON_ADS)
-convert_file(DATA_CAT, "ads.category", JSON_CAT)
+convert_file(DATA_ADS, "ads.ad", JSON_ADS)
+#convert_file(DATA_CAT, "ads.category", JSON_CAT)
+
